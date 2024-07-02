@@ -12,6 +12,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
+
+
 body {
   font-family: "Poppins", sans-serif;
   color: #D5B60A;
@@ -41,8 +44,8 @@ h6 {
 #Head {
   background-color: #12A39D;
   font-size: 4.7rem;
-  font-family: 'Jost','MoonLight';
-text-transform: capitalize;
+  font-family: 'Jost', 'MoonLight';
+  text-transform: capitalize;
   font-weight: lighter;
   text-align: left;
   vertical-align: baseline;
@@ -50,33 +53,52 @@ text-transform: capitalize;
   padding-left: 1rem;
   margin-left: -1.5rem;
   width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+#Head img {
+  margin-right: 10px; /* Space between the image and the text */
+  height: 60px;
+  width: 60px;
 }
 
 /* Medium screens (tablets, 768px and up) */
 @media (max-width: 992px) {
   #Head {
-    font-size: 3.5rem;
-    width: 80%;
-    margin-left: -1rem;
+      font-size: 3.5rem;
+      width: 80%;
+      margin-left: -1rem;
   }
 }
 
 /* Small screens (landscape phones, 576px and up) */
 @media (max-width: 768px) {
   #Head {
-    font-size: 2.5rem;
-    width: 90%;
-    margin-left: -0.5rem;
+      font-size: 2.5rem;
+      width: 90%;
+      margin-left: -0.5rem;
   }
 }
 
 /* Extra small screens (portrait phones, less than 576px) */
 @media (max-width: 576px) {
   #Head {
-    font-size: 2.5rem;
-    width: 100%;
-    margin-left: 0;
-    padding-left: 0.5rem;
+      font-size: 2.5rem;
+      width: 100%;
+      margin-left: 0;
+      padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  #Head {
+      font-size: 2rem;
+  }
+
+  #Head img {
+      height: 40px;
+      width: 40px;
   }
 }
 
@@ -151,7 +173,6 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -223,7 +244,7 @@ section {
   position: relative;
   padding-right: 10px;
   background: #EAE3D3;
- 
+ padding-left: 5px;
   position: relative;
   z-index: 3;
   font-weight: 700;
