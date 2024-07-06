@@ -120,6 +120,10 @@ h6 {
 }
 
 
+@font-face {
+  font-family: 'Battipaglia';
+  src: url('Battipaglia.otf');
+}
 
 
 
@@ -249,7 +253,7 @@ section {
   z-index: 3;
   font-weight: 700;
   color: #12A39D;;
-  font-family: 'South';
+  font-family: 'Battipaglia';
   font-size: 2rem;
 }
 
